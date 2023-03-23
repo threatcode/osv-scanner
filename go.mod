@@ -1,4 +1,4 @@
-module github.com/google/osv-scanner
+module github.com/threatcode/osv-scanner
 
 go 1.19
 

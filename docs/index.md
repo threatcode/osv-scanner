@@ -7,10 +7,10 @@ nav_order: 1
 ---
 # OSV-Scanner
 
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/google/osv-scanner/badge)](https://api.securityscorecards.dev/projects/github.com/google/osv-scanner)
-[![Go Report Card](https://goreportcard.com/badge/github.com/google/osv-scanner)](https://goreportcard.com/report/github.com/google/osv-scanner)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/threatcode/osv-scanner/badge)](https://api.securityscorecards.dev/projects/github.com/threatcode/osv-scanner)
+[![Go Report Card](https://goreportcard.com/badge/github.com/threatcode/osv-scanner)](https://goreportcard.com/report/github.com/threatcode/osv-scanner)
 [![SLSA 3](https://slsa.dev/images/gh-badge-level3.svg)](https://slsa.dev)
-[![GitHub Release](https://img.shields.io/github/v/release/google/osv-scanner)](https://github.com/google/osv-scanner/releases)
+[![GitHub Release](https://img.shields.io/github/v/release/threatcode/osv-scanner)](https://github.com/threatcode/osv-scanner/releases)
 
 Use OSV-Scanner to find existing vulnerabilities affecting your project's dependencies.
 

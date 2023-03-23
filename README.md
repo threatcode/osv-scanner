@@ -1,9 +1,9 @@
 # OSV-Scanner
 
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/google/osv-scanner/badge)](https://api.securityscorecards.dev/projects/github.com/google/osv-scanner)
-[![Go Report Card](https://goreportcard.com/badge/github.com/google/osv-scanner)](https://goreportcard.com/report/github.com/google/osv-scanner)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/threatcode/osv-scanner/badge)](https://api.securityscorecards.dev/projects/github.com/threatcode/osv-scanner)
+[![Go Report Card](https://goreportcard.com/badge/github.com/threatcode/osv-scanner)](https://goreportcard.com/report/github.com/threatcode/osv-scanner)
 [![SLSA 3](https://slsa.dev/images/gh-badge-level3.svg)](https://slsa.dev)
-[![GitHub Release](https://img.shields.io/github/v/release/google/osv-scanner)](https://github.com/google/osv-scanner/releases)
+[![GitHub Release](https://img.shields.io/github/v/release/threatcode/osv-scanner)](https://github.com/threatcode/osv-scanner/releases)
 
 Use OSV-Scanner to find existing vulnerabilities affecting your project's dependencies.
 
@@ -23,7 +23,7 @@ Read our [detailed documentation](https://google.github.io/osv-scanner) to learn
 ## Contribute
 
 ### Report Problems
-If you have what looks like a bug, please use the [Github issue tracking system](https://github.com/google/osv-scanner/issues). Before you file an issue, please search existing issues to see if your issue is already covered.
+If you have what looks like a bug, please use the [Github issue tracking system](https://github.com/threatcode/osv-scanner/issues). Before you file an issue, please search existing issues to see if your issue is already covered.
 
 ### Contributing code to `osv-scanner`
 
@@ -32,4 +32,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for documentation on how to contribute co
 
 ## Stargazers over time
 
-[![Stargazers over time](https://starchart.cc/google/osv-scanner.svg)](https://starchart.cc/google/osv-scanner)
+[![Stargazers over time](https://starchart.cc/threatcode/osv-scanner.svg)](https://starchart.cc/threatcode/osv-scanner)

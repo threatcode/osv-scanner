@@ -7,7 +7,7 @@ nav_order: 2
 
 ## Installing
 
-You may download the [SLSA3](https://slsa.dev) compliant binaries for Linux, macOS, and Windows from our [releases page](https://github.com/google/osv-scanner/releases).
+You may download the [SLSA3](https://slsa.dev) compliant binaries for Linux, macOS, and Windows from our [releases page](https://github.com/threatcode/osv-scanner/releases).
 
 ### Package Managers
 
@@ -50,7 +50,7 @@ pkg_add osv-scanner
 Alternatively, you can install this from source by running:
 
 ```bash
-go install github.com/google/osv-scanner/cmd/osv-scanner@v1
+go install github.com/threatcode/osv-scanner/cmd/osv-scanner@v1
 ```
 
 This requires Go 1.18+ to be installed.
@@ -65,7 +65,7 @@ which can be used to verify the source and provenance of the binaries with the [
 
 E.g. 
 ```bash
-slsa-verifier verify-artifact ./osv-scanner_1.2.0_linux_amd64 --provenance-path multiple.intoto2.jsonl --source-uri github.com/google/osv-scanner --source-tag v1.2.0
+slsa-verifier verify-artifact ./osv-scanner_1.2.0_linux_amd64 --provenance-path multiple.intoto2.jsonl --source-uri github.com/threatcode/osv-scanner --source-tag v1.2.0
 ```
 
 ## SemVer Adherence

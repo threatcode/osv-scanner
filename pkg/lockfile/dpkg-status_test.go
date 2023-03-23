@@ -3,7 +3,7 @@ package lockfile_test
 import (
 	"testing"
 
-	"github.com/google/osv-scanner/pkg/lockfile"
+	"github.com/threatcode/osv-scanner/pkg/lockfile"
 )
 
 func TestParseDpkgStatus_FileDoesNotExist(t *testing.T) {

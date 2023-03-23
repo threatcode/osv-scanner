@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/google/osv-scanner/internal/govulncheckshim"
-	"github.com/google/osv-scanner/internal/output"
-	"github.com/google/osv-scanner/pkg/models"
+	"github.com/threatcode/osv-scanner/internal/govulncheckshim"
+	"github.com/threatcode/osv-scanner/internal/output"
+	"github.com/threatcode/osv-scanner/pkg/models"
 	"golang.org/x/exp/slices"
 	"golang.org/x/vuln/exp/govulncheck"
 )

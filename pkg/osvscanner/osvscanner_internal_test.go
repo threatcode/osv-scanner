@@ -5,10 +5,10 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/google/osv-scanner/internal/output"
-	"github.com/google/osv-scanner/internal/testutility"
-	"github.com/google/osv-scanner/pkg/config"
-	"github.com/google/osv-scanner/pkg/models"
+	"github.com/threatcode/osv-scanner/internal/output"
+	"github.com/threatcode/osv-scanner/internal/testutility"
+	"github.com/threatcode/osv-scanner/pkg/config"
+	"github.com/threatcode/osv-scanner/pkg/models"
 )
 
 func Test_filterResults(t *testing.T) {

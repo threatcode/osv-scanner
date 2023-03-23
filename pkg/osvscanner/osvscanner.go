@@ -9,12 +9,12 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/google/osv-scanner/internal/output"
-	"github.com/google/osv-scanner/internal/sbom"
-	"github.com/google/osv-scanner/pkg/config"
-	"github.com/google/osv-scanner/pkg/lockfile"
-	"github.com/google/osv-scanner/pkg/models"
-	"github.com/google/osv-scanner/pkg/osv"
+	"github.com/threatcode/osv-scanner/internal/output"
+	"github.com/threatcode/osv-scanner/internal/sbom"
+	"github.com/threatcode/osv-scanner/pkg/config"
+	"github.com/threatcode/osv-scanner/pkg/lockfile"
+	"github.com/threatcode/osv-scanner/pkg/models"
+	"github.com/threatcode/osv-scanner/pkg/osv"
 
 	"github.com/go-git/go-billy/v5"
 	"github.com/go-git/go-billy/v5/osfs"

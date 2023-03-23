@@ -24,7 +24,7 @@ Git directories are searched for the latest commit hash. Searching for git commi
 
 By default, OSV-Scanner will not scan files that are ignored by `.gitignore` files. All recursively scanned files are matched to a git repository (if it exists) and any matching `.gitignore` files within that repository are taken into account.
 
-There is a [known issue](https://github.com/google/osv-scanner/issues/209) that the parser does not correctly respect repository boundaries.
+There is a [known issue](https://github.com/threatcode/osv-scanner/issues/209) that the parser does not correctly respect repository boundaries.
 
 The `--no-ignore` flag can be used to force the scanner to scan ignored files.
 
@@ -56,7 +56,7 @@ It is possible to specify more than one lockfile at a time; you can also specify
 osv-scanner --lockfile 'requirements.txt:/path/to/your/extra-requirements.txt'
 ```
 
-A wide range of lockfiles are supported by utilizing this [lockfile package](https://github.com/google/osv-scanner/tree/main/pkg/lockfile). This is the current list of supported lockfiles:
+A wide range of lockfiles are supported by utilizing this [lockfile package](https://github.com/threatcode/osv-scanner/tree/main/pkg/lockfile). This is the current list of supported lockfiles:
 
 - `buildscript-gradle.lockfile`
 - `Cargo.lock`
@@ -71,9 +71,9 @@ A wide range of lockfiles are supported by utilizing this [lockfile package](htt
 - `Pipfile.lock`
 - `pnpm-lock.yaml`
 - `poetry.lock`
-- `pom.xml`[\*](https://github.com/google/osv-scanner/issues/35)
+- `pom.xml`[\*](https://github.com/threatcode/osv-scanner/issues/35)
 - `pubspec.lock`
-- `requirements.txt`[\*](https://github.com/google/osv-scanner/issues/34)
+- `requirements.txt`[\*](https://github.com/threatcode/osv-scanner/issues/34)
 - `yarn.lock`
 
 The scanner also supports:
@@ -125,7 +125,7 @@ Currently only Debian based docker image scanning is supported.
 
 Requires `docker` to be installed and the tool to have permission calling it.
 
-This currently does not scan the filesystem of the Docker container, and has various other limitations. Follow [this issue](https://github.com/google/osv-scanner/issues/64) for updates on container scanning!
+This currently does not scan the filesystem of the Docker container, and has various other limitations. Follow [this issue](https://github.com/threatcode/osv-scanner/issues/64) for updates on container scanning!
 
 #### Example
 
@@ -138,18 +138,18 @@ osv-scanner --docker image_name:latest
 The simplest way to get the osv-scanner docker image is to pull from GitHub Container Registry:
 
 ```bash
-docker pull ghcr.io/google/osv-scanner:latest
+docker pull ghcr.io/threatcode/osv-scanner:latest
 ```
 
 Once you have the image, you can test that it works by running:
 
 ```bash
-docker run -it ghcr.io/google/osv-scanner -h
+docker run -it ghcr.io/threatcode/osv-scanner -h
 ```
 
 Finally, to run it, mount the directory you want to scan to `/src` and pass the
 appropriate osv-scanner flags:
 
 ```bash
-docker run -it -v ${PWD}:/src ghcr.io/google/osv-scanner -L /src/go.mod
+docker run -it -v ${PWD}:/src ghcr.io/threatcode/osv-scanner -L /src/go.mod
 ```

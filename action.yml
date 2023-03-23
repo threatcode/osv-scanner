@@ -15,7 +15,7 @@ inputs:
     default: 'amd64'
 runs:
   using: 'docker'
-  image: 'ghcr.io/google/osv-scanner:${{ inputs.version }}-${{ inputs.arch }}'
+  image: 'ghcr.io/threatcode/osv-scanner:${{ inputs.version }}-${{ inputs.arch }}'
   args:
     - '--skip-git'
     - ${{ inputs.to-scan }}

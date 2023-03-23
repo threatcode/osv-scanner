@@ -3,8 +3,8 @@ package sourceanalysis
 import (
 	"path/filepath"
 
-	"github.com/google/osv-scanner/internal/output"
-	"github.com/google/osv-scanner/pkg/models"
+	"github.com/threatcode/osv-scanner/internal/output"
+	"github.com/threatcode/osv-scanner/pkg/models"
 )
 
 // vulnsFromAllPkgs returns the flattened list of unique vulnerabilities

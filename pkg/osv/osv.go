@@ -10,8 +10,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/google/osv-scanner/pkg/lockfile"
-	"github.com/google/osv-scanner/pkg/models"
+	"github.com/threatcode/osv-scanner/pkg/lockfile"
+	"github.com/threatcode/osv-scanner/pkg/models"
 	"golang.org/x/sync/semaphore"
 )
 

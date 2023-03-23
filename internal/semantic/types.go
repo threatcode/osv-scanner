@@ -1,5 +1,5 @@
 package semantic
 
-import "github.com/google/osv-scanner/pkg/lockfile"
+import "github.com/threatcode/osv-scanner/pkg/lockfile"
 
 type Ecosystem = lockfile.Ecosystem

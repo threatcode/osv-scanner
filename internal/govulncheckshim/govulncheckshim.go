@@ -10,7 +10,7 @@ import (
 	"golang.org/x/vuln/exp/govulncheck"
 	"golang.org/x/vuln/vulncheck"
 
-	"github.com/google/osv-scanner/pkg/models"
+	"github.com/threatcode/osv-scanner/pkg/models"
 )
 
 type packageError struct {

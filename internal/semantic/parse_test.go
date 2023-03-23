@@ -2,8 +2,8 @@ package semantic_test
 
 import (
 	"errors"
-	"github.com/google/osv-scanner/internal/semantic"
-	"github.com/google/osv-scanner/pkg/lockfile"
+	"github.com/threatcode/osv-scanner/internal/semantic"
+	"github.com/threatcode/osv-scanner/pkg/lockfile"
 	"testing"
 )
 

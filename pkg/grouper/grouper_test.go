@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/google/osv-scanner/pkg/models"
+	"github.com/threatcode/osv-scanner/pkg/models"
 )
 
 func TestGroup(t *testing.T) {

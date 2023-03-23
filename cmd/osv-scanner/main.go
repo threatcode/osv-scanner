@@ -6,8 +6,8 @@ import (
 	"io"
 	"os"
 
-	"github.com/google/osv-scanner/internal/output"
-	"github.com/google/osv-scanner/pkg/osvscanner"
+	"github.com/threatcode/osv-scanner/internal/output"
+	"github.com/threatcode/osv-scanner/pkg/osvscanner"
 
 	"github.com/urfave/cli/v2"
 )

@@ -5,7 +5,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/google/osv-scanner/pkg/models"
+	"github.com/threatcode/osv-scanner/pkg/models"
 )
 
 type Reporter struct {

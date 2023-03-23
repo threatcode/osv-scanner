@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/google/osv-scanner/pkg/models"
+	"github.com/threatcode/osv-scanner/pkg/models"
 )
 
 func newTestClient(t *testing.T) *localSource {

@@ -3,8 +3,8 @@ package sourceanalysis
 import (
 	"testing"
 
-	"github.com/google/osv-scanner/internal/testutility"
-	"github.com/google/osv-scanner/pkg/models"
+	"github.com/threatcode/osv-scanner/internal/testutility"
+	"github.com/threatcode/osv-scanner/pkg/models"
 	"golang.org/x/vuln/exp/govulncheck"
 )
 

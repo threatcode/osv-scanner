@@ -56,7 +56,7 @@ callouts:
 
 aux_links:
   "OSV-Scanner on GitHub":
-    - https://github.com/google/osv-scanner
+    - https://github.com/threatcode/osv-scanner
 
 nav_external_links:
   - title: OSV.dev
